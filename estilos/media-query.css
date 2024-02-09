@@ -9,14 +9,14 @@ Desktop: 992px até 1200px
 Grandes Telas: acima de 1200px
 ------------------------------
 */
+/*-------------------TABLET-------------------------------------*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, rgb(241, 241, 138), cyan);
+        background-image: linear-gradient(to top, cyan, rgb(241, 241, 138));
     }
     section#login {
         width: 80vw;
-    }
-    
+    } 
 }
 section#login > div#imagem {
     float: left;
@@ -28,7 +28,11 @@ section#login > div#formulario {
     float: right;
     width: 70%;
 }
+/*--------------------TELAS GRANDES-------------------*/
 @media screen and  (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, rgb(9, 150, 150), rgb(194, 194, 93));
+    }
     section#login {
         width: 950px;
     }
